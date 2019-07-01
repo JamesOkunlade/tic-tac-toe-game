@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ----------------- CSS RESET ENDS ----------------------- */
+
+div, nav {
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica Neue, sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #fff;
+  font-size: 100%;
+  background: #55514d;
+
+}
+
+
+h1, span {
+  font-size: 5.714em;
+  font-weight: 800;
+  line-height: 1.25em;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+	font-family: 'Circular', Roboto, Helvetica Neue, sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:active {
+  color: #008489;
+}
+
+
+hr {
+  width: 120px;
+}
+
+
+.content {
+  height: 100vh;
+  text-align: center;
+  height: 400px;
+  width: 510px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -250px;
+}
+
+.info {
+  border: 1px solid #008489;
+  border-radius: 30px;
+  padding: 15px;
+  margin-bottom: 35px;
+}
+
+.landing-page, .gameboard-page {
+  display: none;
+}
+
+.display {
+  display: block;
+}
+
+.tic-tac-logo {
+  height: 40%;
+}
+
+span {
+  padding: 10px;
+}
+
+.ply-1 {
+  color: #23a8d1;
+}
+.ply-2 {
+  color: #f5de74;
+}
+
+.call-to-action-buttons {
+  padding: 30px 20px;
+}
+button {
+  font-size: 12px;
+  background: #55514d;
+  margin: 10px;
+	width:130px;
+	height:60px;
+	border: 2px solid #f5de74;
+	color:#f4f4f4;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 1px 2px 3px #999;
+  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 0.3s;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  height: 133px;
+}
+.grid {
+  width: 33%;
+}
+.row-1, .row-2 {
+  border-bottom: 1px solid #f5de74;
+}
+.grid-1, .grid-2 {
+  border-right: 1px solid #f5de74;
+}
